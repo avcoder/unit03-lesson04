@@ -247,7 +247,7 @@ transition: slide-left
 - To download index.html from link:  Shift+right-click > Save Link As [index.html](/assets/index.html)
 - Review: make frontend fetch from your backend api endpoint to display the person/data dynamically
 - Stretch goal: fetch 3 people instead of 1 and display all 3
-- Stretch goal: make the frontend continually fetch every 30 seconds (ex: to emulate getting the newest data)
+- Stretch goal: make the frontend continually fetch every 30 seconds (ex: to emulate getting the newest data)(hint: setInterval)
 - Stretch goal: Pretend Senior Leadership wants to trim down the amount of JS sent to the wire.  Refactor the axios code and replace it with fetch.
 
 Go to next slide...
