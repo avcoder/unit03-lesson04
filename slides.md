@@ -242,7 +242,9 @@ app.get('/api/user', async (req, res) => {
 transition: slide-left
 ---
 
-# Exercise 4
+# Exercise 4: Connect your backend endpoint to frontend
+
+- To download index.html from link:  Shift+right-click > Save Link As [index.html](/assets/index.html)
 
 ---
 transition: slide-left
