@@ -19,8 +19,8 @@ mdc: true
 # Node.js - part 4/12
 Back-End Development
 - [ ] Express.js
-- [ ] Handle a GET HTTP request
-- [ ] Fork GitHub Repo and update it
+- [ ] Handle a GET HTTP request by sending HTML
+- [ ] Create an API route sending JSON
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
