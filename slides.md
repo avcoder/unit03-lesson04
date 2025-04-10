@@ -247,6 +247,23 @@ transition: slide-left
 - To download index.html from link:  Shift+right-click > Save Link As [index.html](/assets/index.html)
 - Review: make frontend fetch from your backend api endpoint to display the person/data dynamically
 - Stretch goal: fetch 3 people instead of 1 and display all 3
+- Stretch goal: make the frontend continually fetch every 30 seconds (ex: to emulate getting the newest data)
+- Stretch goal: Pretend Senior Leadership wants to trim down the amount of JS sent to the wire.  Refactor the axios code and replace it with fetch.
+
+
+---
+transition: slide-left
+---
+
+# Exercise 4 continued
+
+Discuss:
+- What happens behind the scenes when the frontend does a GET request to the server? 
+- How might this structure be more secure than simply having the frontend fetch the Random User API directly?
+- If the frontend isn't receiving the expected data, what are some debugging steps you can take to identify the issue?
+- If you wanted to extend this app to display multiple users or add a search feature, what changes would you need to make in both the backend and frontend?
+
+
 
 ---
 transition: slide-left
