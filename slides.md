@@ -167,9 +167,9 @@ Discuss:
 
 Stretch goal: Implement a wild card route to show a custom 404 message via:
 ```js
-      app.get('*', (req, res) => {
-        res.send('😢 Page not found. Please try another route.');
-      });
+    app.use((req, res) => {
+      res.status(404).send("404 Not Found");
+    });
 ```
 
 <!--
