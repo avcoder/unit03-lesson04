@@ -217,7 +217,7 @@ const axios = require('axios'); // If not already installed: npm i axios
 
 app.get('/api/user', async (req, res) => {
   try {
-    const response = await axios.get('https://randomuser.me/api/');
+    const response = await axios.get('https://randomuser.me/api/?results=1');
     const user = response.data.results[0];
 
     const data = {
@@ -245,6 +245,8 @@ transition: slide-left
 # Exercise 4: Connect your backend endpoint to frontend
 
 - To download index.html from link:  Shift+right-click > Save Link As [index.html](/assets/index.html)
+- Review: make frontend fetch from your backend api endpoint to display the person/data dynamically
+- Stretch goal: fetch 3 people instead of 1 and display all 3
 
 ---
 transition: slide-left
