@@ -250,6 +250,7 @@ transition: slide-left
 - Stretch goal: make the frontend continually fetch every 30 seconds (ex: to emulate getting the newest data)
 - Stretch goal: Pretend Senior Leadership wants to trim down the amount of JS sent to the wire.  Refactor the axios code and replace it with fetch.
 
+Go to next slide...
 
 ---
 transition: slide-left
